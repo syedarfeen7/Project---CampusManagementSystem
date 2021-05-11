@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.adminHomePageImage{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1492551557933-34265f7af79e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center center;
+  
+}
+.adminAllStudentPageImage{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  
+}
+.totalCounts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    /* padding: 100px 0px; */
+    margin: 100px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.totalCounts h3{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    font-weight: 600;
+
+}
+.totalCounts Button{
+    padding: 10px 50px;
+    margin-bottom: 50px;
+
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.studentHomePageImage{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://image.freepik.com/free-photo/medium-shot-woman-talking-business_23-2148911831.jpg');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+}
+.allCompanyPageImage{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center center center;
+  
+}
+.profileImage{
+    background-image: url('https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:   0;
+}
+.sameText{
+    font-weight: 900;
+    text-transform: uppercase;
+    /* background-color: ; */
+
+}

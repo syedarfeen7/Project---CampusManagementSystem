@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+/* ****************** FOOOTER STYLING ******************* */
+.footer{
+    background-color: #001d3d;
+    color:  #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.footer h3{
+    font-weight: 600;
+}
+.socialLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    transition: all .7s ease;
+    cursor: pointer;
+}
+.socialLinks .icons:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+ .btn-grad {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.btn-grad {
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white; 
+    border:  none;
+   outline: none;
+   display: inline-block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.whoWeAreImage{
+    background-image: url('https://media.istockphoto.com/photos/smiling-man-outdoors-in-the-city-picture-id1179420343?k=6&m=1179420343&s=612x612&w=0&h=y7GrwxrbixTWvJfaeiu55rWXMGYr6oP583uzJJ4-Kis=');
+    height: 70vh;
+    width: auto;
+    background-repeat: no-repeat;
+  
+}
+
+/* ********************* NEWS AND JOBS STYLING */
+
+.Card{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.signup{
+    background-color: rgba(211, 211, 211, 0.199);
+}
+.signup .a{
+    background: rgb(255, 255, 255);
+    
+    /* background: transparent; */
+}
+
