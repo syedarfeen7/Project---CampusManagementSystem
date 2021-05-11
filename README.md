@@ -3,6 +3,7 @@
  - Admin (System generated)
  - Company Admin (signup / signin)
  - Student (signup / signin)
+
 **Functionality**
  - Student Signup/Signin
  - Student - Profile / portfolio mentioning skills and experiences
