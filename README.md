@@ -23,3 +23,4 @@
  - Admin can remove the company
  - Admin can view a list of jobs
  - Admin can remove jobs
+### Note
